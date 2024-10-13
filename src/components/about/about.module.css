@@ -1,0 +1,13 @@
+.over{
+    height: 90vh;
+    overflow:scroll;
+    
+        scrollbar-width: none; /* For Firefox */
+    
+    
+}
+
+.inst{
+    scrollbar-width: none;
+   
+}

@@ -1,0 +1,87 @@
+#root {
+
+  margin: 0 auto;
+
+  text-align: center;
+}
+nav ul{
+  background: rgb(99 102 241) !important;
+  color: blanchedalmond !important;
+}
+nav a{
+  background: rgb(99 102 241) !important;
+  color: blanchedalmond !important;
+}
+.nn{
+  z-index: 999999;
+}
+.layer{
+  position:absolute;
+  top:100%;
+  bottom:0;
+  left:0;
+  right:0;
+ background-color: rgba(255, 255, 255, 0.735);
+ color:black;
+ transition: all .6s;
+}
+.parent{
+  position:relative;
+}
+.layer-dark{
+  background-color: rgba(27, 25, 25, 0.735);
+ color:rgb(249, 245, 245);
+}
+.parent:hover .layer{
+  top:0;
+
+}
+li:hover{
+  cursor: pointer;
+
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.mySwiper{
+  height:500px;
+}
+.swiper{
+  height: 400px;
+  position: absolute;
+  inset: 0;
+
+}
+.swiper-wraper{
+  position: absolute;
+
+  inset: 0;
+}
+
+.swiper img{
+  object-fit: cover;
+}
+
+.slider-img{
+  object-fit: cover;
+}

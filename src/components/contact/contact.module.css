@@ -1,0 +1,14 @@
+.inst{
+    scrollbar-width: none;
+   
+}
+
+    
+
+
+@media (max-width: 640px) {
+    .class {
+      position: fixed !important;
+      
+    }
+  }
