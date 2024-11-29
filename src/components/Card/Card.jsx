@@ -15,12 +15,9 @@ function Card({recipe}) {
 
     const handleDisply = ()=>{
         setIsClicked(true)
-  
        }
-
        const closeDisplay = ()=>{
         setIsClicked(false)
-  
        }
        function goToYoutube(url){
         window.location.replace(url);

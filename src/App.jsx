@@ -9,6 +9,7 @@ import './App.css'
 import ProtectedRoutes from '../context/ProtectedRoutes/ProtectedRoutes.jsx'
 import RecipeList from './components/about/about.jsx';
 import Signup from './components/Signup/Signup.jsx';
+import NotFound from './components/Notfound/Notfound.jsx';
 
 
 // import { initializeApp } from "firebase/app";
@@ -50,8 +51,8 @@ const router = createBrowserRouter([
         path:"/forgotpassword",
         element:<ForgotPassword />
       },
-      {path:"/*",
-      element:<div>"something went wrong"</div>
+      {path:"*",
+      element:<NotFound/>
       }
     ]
   },
